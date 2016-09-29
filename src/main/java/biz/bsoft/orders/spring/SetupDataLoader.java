@@ -96,7 +96,7 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         order.setClientPosId(124);
         order.setRoute("Center");
         order.setRouteId(5);
-        date = LocalDate.parse("01.10.2016",format);
+        //date = LocalDate.parse("01.10.2016",format);
         //order.setShipDate(date);
         orderRepository.save(order);
         //Test order3
