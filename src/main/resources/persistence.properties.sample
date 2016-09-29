@@ -1,0 +1,10 @@
+################### DataSource Configuration ##########################
+jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+jdbc.url=jdbc:oracle:thin:@localhost:1521:ORCL
+jdbc.user=agentorders
+jdbc.pass=
+#init-db=false
+################### Hibernate Configuration ##########################
+hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
+hibernate.show_sql=rue
+hibernate.hbm2ddl.auto=create-drop
