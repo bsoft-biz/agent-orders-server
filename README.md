@@ -8,6 +8,9 @@ In this application operators can confirm agents orders.
 
 ##How to use
 
+###Before using you must rename and configure this file:
+* persistence.properties.sample to persistence.properties
+
 ###To use oracle database you need to install oracle jdbc into your local maven repository
 #### Get Oracle jdbc driver
 Download it from oracle.com or get it from `{ORACLE_HOME}\jdbc\lib\`
