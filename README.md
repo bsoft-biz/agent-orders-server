@@ -17,5 +17,3 @@ Download it from oracle.com or get it from `{ORACLE_HOME}\jdbc\lib\`
 
 #### Install Oracle driver
 `mvn install:install-file -Dfile={Path/to/your/ojdbc.jar} -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar`
-
-[Wiki page] (https://github.com/bsoft-biz/orders/wiki/How-to-add-Oracle-JDBC-driver-in-your-Maven-local-repository)
