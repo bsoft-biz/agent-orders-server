@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @Table(name = "orders")
 public class Order {
     @Id
-    private Integer Id;
+    private Integer id;
 
     @Convert(converter = LocalDateAttributeConverter.class)
     @JsonFormat(pattern="dd.MM.yyyy")
@@ -35,11 +35,11 @@ public class Order {
     private Integer routeId;
 
     public Integer getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Integer id) {
-        Id = id;
+        this.id = id;
     }
 
     public LocalDate getShipDate() {
