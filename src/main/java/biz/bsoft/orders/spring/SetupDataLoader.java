@@ -84,8 +84,8 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         order.setClientPosId(124);
         order.setRoute("Center");
         order.setRouteId(5);
-        LocalDate date = LocalDate.parse("01.10.2016",format);
-        //order.setShipDate(date);
+        LocalDate date = LocalDate.parse("01.10.2017",format);
+        order.setShipDate(date);
         orderRepository.save(order);
         //Test order2
         order = new Order();
@@ -96,8 +96,8 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         order.setClientPosId(124);
         order.setRoute("Center");
         order.setRouteId(5);
-        //date = LocalDate.parse("01.10.2016",format);
-        //order.setShipDate(date);
+        date = LocalDate.parse("01.10.2017",format);
+        order.setShipDate(date);
         orderRepository.save(order);
         //Test order3
         order = new Order();
@@ -108,8 +108,8 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         order.setClientPosId(124);
         order.setRoute("Center");
         order.setRouteId(5);
-        date = LocalDate.parse("02.10.2016",format);
-        //order.setShipDate(date);
+        date = LocalDate.parse("02.10.2017",format);
+        order.setShipDate(date);
         orderRepository.save(order);
 
         alreadySetup = true;
