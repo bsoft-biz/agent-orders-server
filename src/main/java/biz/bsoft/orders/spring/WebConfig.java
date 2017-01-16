@@ -13,7 +13,7 @@ import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
  * Created by vbabin on 30.08.2016.
  */
 @Configuration
-@ComponentScan({ "biz.bsoft.orders.web" })
+@ComponentScan({ "biz.bsoft.orders.web", "biz.bsoft.orders.service"})
 public class WebConfig {
     @Bean(name = "OBJECT_MAPPER_BEAN")
     public ObjectMapper jsonObjectMapper() {
